@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Sofia+Sans+Condensed:ital@1&display=swap');
+
+body{
+    background-color: #fff;
+}
+
+#btn {
+    text-transform: capitalize;
+    border: none !important;
+    font-family: 'Lato', sans-serif;
+
+}
+
+#text {
+    font-family: 'Inter Tight', sans-serif;
+}
+.header S{
+    width: 200px !important;
+}
+
+#txt{
+    position: absolute;
+    bottom: 80px;
+    right: 450px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+
+}
+
+/* Phone screen */
+@media screen and (max-width: 700px) {
+    .main {
+        position: absolute;
+        left: 30px;
+        top: 20px;
+        width: 150px !important;
+    }
+
+    #btn {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header {
+        font-size: 50px;
+    }
+
+    #txt{
+        position: absolute;
+        right: 30px ;
+        bottom: 10px;
+    }
+}
+
+/* @media screen and (min-width: 720px) {
+    .header{
+        font-size: 70px !important;
+    }
+
+    #btn {
+        font-size: 40px;
+    }
+
+    #text {
+        font-size: 30px
+    }
+
+    #txt {
+        position: absolute;
+        right: 200px;
+        bottom: 430px;
+        font-size: 20px;
+        
+    }
+} */
